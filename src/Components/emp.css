@@ -1,0 +1,45 @@
+
+#card_main{
+    display:flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 9px;
+    /* height: 60vh; */
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    margin-top: 5rem;
+    font-family:monospace;
+    
+}
+#card_title{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#inputbox{
+    width: 100%;
+    border: 2px solid rgba(102, 102, 102, 0.466) ;
+}
+#submit_btn{
+    background-color:rgb(46, 46, 46);
+}
+.sup{
+    color: red;   
+}
+.required{
+    font-family:monospace;
+    font-size: 12px;
+    text-align:left;
+}
+.err_msg{
+    color: crimson;
+    font-size: 11px;
+}
+.submitted{
+    color: rgb(16, 151, 16);
+}
